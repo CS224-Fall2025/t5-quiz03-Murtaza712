@@ -66,9 +66,6 @@ int main() {
             employees[i] = new Staff(name, salary);
         } else if (type == "Faculty") {
             employees[i] = new Faculty(name, salary);
-        } else {
-            cout << "Invalid type!" << endl;
-            return 1;
         }
     }
 
