@@ -68,15 +68,11 @@ int main() {
             employees[i] = new Faculty(name, salary);
         }
     }
-
-
     for (int i = 0; i < n; i++) {
         employees[i]->displayInfo();
     }
-
- 
+    
     Employee::showTotalEmployees();
-
 
     for (int i = 0; i < n; i++) {
         delete employees[i];
