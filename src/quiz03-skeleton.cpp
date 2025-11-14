@@ -78,5 +78,4 @@ int main() {
         delete employees[i];
     }
 
-    return 0;
 }
